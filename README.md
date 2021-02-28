@@ -18,10 +18,10 @@ The main goal for this version is to create an app showing a simple resume. But,
 ## Samples
 
 <p float="left">
-  <img src="https://github.com/rodri2d2/TheRealmNotebookApp/blob/hotfix/v1.01/gifs/1.gif" width="200" />
-  <img src="https://github.com/rodri2d2/TheRealmNotebookApp/blob/hotfix/v1.01/gifs/2.gif" width="200" />
-  <img src="https://github.com/rodri2d2/TheRealmNotebookApp/blob/hotfix/v1.01/gifs/3.gif" width="200" /> 
-  <img src="https://github.com/rodri2d2/TheRealmNotebookApp/blob/hotfix/v1.01/gifs/3.gif" width="200" /> 
+  <img src="https://github.com/rodri2d2/LocalizedResume/blob/release/v1.0/gifs/en.gif" width="200" />
+  <img src="https://github.com/rodri2d2/LocalizedResume/blob/release/v1.0/gifs/sp.gif" width="200" />
+  <img src="https://github.com/rodri2d2/LocalizedResume/blob/release/v1.0/gifs/fr.gif" width="200" /> 
+  <img src="https://github.com/rodri2d2/LocalizedResume/blob/release/v1.0/gifs/pt.gif" width="200" /> 
 </p>
 <br />  
 
