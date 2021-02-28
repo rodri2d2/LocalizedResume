@@ -80,10 +80,17 @@
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift_logo" translatesAutoresizingMaskIntoConstraints="NO" id="hTI-Xt-tl6">
                     <rect key="frame" x="157" y="685.5" width="100" height="176.5"/>
                 </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5RJ-XC-7fG">
+                    <rect key="frame" x="16" y="60" width="382" height="26.5"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                    <color key="textColor" systemColor="systemGray2Color"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="5RJ-XC-7fG" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="0ZT-26-kz6"/>
                 <constraint firstItem="hTI-Xt-tl6" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="4il-DQ-wlh"/>
                 <constraint firstItem="NBb-Eu-5vM" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="6ef-bN-CiO"/>
                 <constraint firstItem="tJC-uu-6ZY" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="120" id="91J-RB-BI5"/>
@@ -92,9 +99,11 @@
                 <constraint firstItem="tJC-uu-6ZY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="32" id="VOP-9K-Lb4"/>
                 <constraint firstItem="hTI-Xt-tl6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="157" id="VOe-yH-WPM"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hTI-Xt-tl6" secondAttribute="trailing" constant="157" id="VbW-K1-9RX"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="5RJ-XC-7fG" secondAttribute="trailing" constant="16" id="WqF-Eg-Ckn"/>
                 <constraint firstItem="NBb-Eu-5vM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" symbolic="YES" id="bbG-IU-OkU"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tJC-uu-6ZY" secondAttribute="trailing" constant="32" id="caH-ST-V7t"/>
                 <constraint firstItem="NBb-Eu-5vM" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eTu-Kc-ZGO"/>
+                <constraint firstItem="5RJ-XC-7fG" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="uiP-fO-yQH"/>
             </constraints>
             <point key="canvasLocation" x="137.68115942028987" y="153.34821428571428"/>
         </view>
