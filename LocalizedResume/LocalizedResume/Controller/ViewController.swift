@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     
     
     private func createTimer(){
-        let faceTimer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(changeFaceImage), userInfo: nil, repeats: true)
+        let faceTimer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(changeFaceImage), userInfo: nil, repeats: true)
         
         
         DispatchQueue.main.async {
