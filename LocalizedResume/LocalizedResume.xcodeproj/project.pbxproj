@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1D496825EBFE4800A5E2B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D496625EBFE4800A5E2B9 /* ViewController.swift */; };
+		5B1D496925EBFE4800A5E2B9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1D496725EBFE4800A5E2B9 /* ViewController.xib */; };
 		5B9209A625EBF8F9002C0447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9209A525EBF8F9002C0447 /* AppDelegate.swift */; };
 		5B9209A825EBF8F9002C0447 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9209A725EBF8F9002C0447 /* SceneDelegate.swift */; };
-		5B9209AA25EBF8F9002C0447 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9209A925EBF8F9002C0447 /* ViewController.swift */; };
-		5B9209AD25EBF8F9002C0447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9209AB25EBF8F9002C0447 /* Main.storyboard */; };
 		5B9209AF25EBF8FB002C0447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9209AE25EBF8FB002C0447 /* Assets.xcassets */; };
 		5B9209B225EBF8FB002C0447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9209B025EBF8FB002C0447 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B1D496625EBFE4800A5E2B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B1D496725EBFE4800A5E2B9 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		5B9209A225EBF8F9002C0447 /* LocalizedResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizedResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B9209A525EBF8F9002C0447 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B9209A725EBF8F9002C0447 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B9209A925EBF8F9002C0447 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5B9209AC25EBF8F9002C0447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B9209AE25EBF8FB002C0447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B9209B125EBF8FB002C0447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B9209B325EBF8FB002C0447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +37,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B1D495E25EBFDCA00A5E2B9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5B9209B025EBF8FB002C0447 /* LaunchScreen.storyboard */,
+				5B9209B325EBF8FB002C0447 /* Info.plist */,
+				5B9209A525EBF8F9002C0447 /* AppDelegate.swift */,
+				5B9209A725EBF8F9002C0447 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5B1D496125EBFDED00A5E2B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B1D496625EBFE4800A5E2B9 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5B1D496225EBFDF600A5E2B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B1D496725EBFE4800A5E2B9 /* ViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		5B92099925EBF8F8002C0447 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +83,10 @@
 		5B9209A425EBF8F9002C0447 /* LocalizedResume */ = {
 			isa = PBXGroup;
 			children = (
-				5B9209A525EBF8F9002C0447 /* AppDelegate.swift */,
-				5B9209A725EBF8F9002C0447 /* SceneDelegate.swift */,
-				5B9209A925EBF8F9002C0447 /* ViewController.swift */,
-				5B9209AB25EBF8F9002C0447 /* Main.storyboard */,
+				5B1D495E25EBFDCA00A5E2B9 /* App */,
+				5B1D496225EBFDF600A5E2B9 /* View */,
+				5B1D496125EBFDED00A5E2B9 /* Controller */,
 				5B9209AE25EBF8FB002C0447 /* Assets.xcassets */,
-				5B9209B025EBF8FB002C0447 /* LaunchScreen.storyboard */,
-				5B9209B325EBF8FB002C0447 /* Info.plist */,
 			);
 			path = LocalizedResume;
 			sourceTree = "<group>";
@@ -125,8 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B9209B225EBF8FB002C0447 /* LaunchScreen.storyboard in Resources */,
+				5B1D496925EBFE4800A5E2B9 /* ViewController.xib in Resources */,
 				5B9209AF25EBF8FB002C0447 /* Assets.xcassets in Resources */,
-				5B9209AD25EBF8F9002C0447 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B9209AA25EBF8F9002C0447 /* ViewController.swift in Sources */,
+				5B1D496825EBFE4800A5E2B9 /* ViewController.swift in Sources */,
 				5B9209A625EBF8F9002C0447 /* AppDelegate.swift in Sources */,
 				5B9209A825EBF8F9002C0447 /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +170,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5B9209AB25EBF8F9002C0447 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B9209AC25EBF8F9002C0447 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5B9209B025EBF8FB002C0447 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +304,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q7F87669V;
-				INFOPLIST_FILE = LocalizedResume/Info.plist;
+				INFOPLIST_FILE = LocalizedResume/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q7F87669V;
-				INFOPLIST_FILE = LocalizedResume/Info.plist;
+				INFOPLIST_FILE = LocalizedResume/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
